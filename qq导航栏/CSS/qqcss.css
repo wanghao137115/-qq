@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    overflow: scroll;
+
+}
+.imagess{
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+a{
+    text-decoration: none;//去下划线
+}
+
+.nav-header{
+    height: 75px;
+    width: 100%;
+/*    渐变颜色*/
+    background: linear-gradient(0deg,rgba(0,0,0,.2),rgba(0,0,0,.2));
+}
+
+.header-contain{
+    /*width: auto;*/
+    padding-left: 80px;
+    height: 75px;
+}
+
+.nav-top,.nav-top li,.nav-fill,.tools-tops,.tools-right,.tools-right li{
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav-logo{
+
+    padding-right: 214px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+    background: transparent url(https://sqimg.qq.com/qq_product_operations/im/qqlogo/imlogo_b.png) no-repeat left 15px;
+}
+.nav-top li,.tools-tops a,.tools-right li{
+    width: 75px;
+    line-height: 75px;
+    text-align: center;
+}
+
+
+
+.nav-top{
+    padding-left:30px ;
+}
+
+.nav-top a{
+    width: 39px;
+    height: 39px;
+    display:block;
+    color: white;
+    padding-left: 50px;
+}
+
+.nav-top  a:hover{
+    color: #00bce5;
+}
+
+.nav-fill{
+    padding-left: 250px;
+}
+
+.tools-tops a{
+    width: 96px;
+    height: 39px;
+    margin-top: 18px;
+    line-height: 39px;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    color: white;
+    background: #00bce5;
+}
+
+.tools-right{
+    padding-left: 30px;
+}
+
+.tools-right li a{
+    font-size: small;
+    /*color: black;*/
+    /*text-align: center;*/
+    /*margin-top: 100px;*/
+    /*text-align: center;*/
+    color: white;
+    /*margin-top: 30px;*/
+    /*margin-right: 10px;*/
+
+}
+
+.tools-right li a:hover{
+    color: #02d3ff;
+}
+
+.body-main{
+    position: absolute;
+    top:265px;
+    left:40%
+
+}
+h1{
+    color: white;
+    display: inline-block;
+}
+
+.body-main a{
+    padding-left: 114px;
+    padding-top: 10px;
+    display: block;
+    color: #09f;
+}
+.footer-main{
+    position: absolute;
+    bottom:20px;
+
+    z-index: 1;
+}
+.footer-main ul li{
+    display: inline-block;
+    vertical-align: bottom;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.footer-main ul li a{
+    color: white;
+}
+.footer-main ul li:nth-child(-n+4){
+    border-right: 1px solid #fff;
+}
+.imagge{
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+    width: 100px;
+}
+.imagges{
+    position: absolute;
+    bottom: 50px;
+    left: 160px;
+    width: 100px;
+}
+.body-second img:nth-child(1){
+    padding-right: 80px;
+    padding-bottom:80px;
+    width: 140px;
+    height: 64px;
+}
+.reserve-btn {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background-image: url("../images/33.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.second-image {
+    width: 370px;
+    height: 210px;
+    border-radius: 25px;
+}
+.body-second{
+    position: absolute;
+    top:900px;
+    left: 25%;
+}
